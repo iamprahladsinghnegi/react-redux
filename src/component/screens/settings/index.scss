@@ -1,0 +1,40 @@
+.settings {
+  user-select: none;
+  margin: 5% 5%;
+  .firstList {
+    background-color: rgb(240, 234, 234);
+    padding: 20px 30px;
+    min-width: 1400px;
+    margin: 20px 0;
+    .plugins {
+      max-width: 1300px;
+      min-width: 1300px;
+    }
+  }
+  .secondList {
+    background-color: rgb(240, 234, 234);
+    padding: 20px 30px;
+    min-width: 1400px;
+    margin: 20px 0;
+    .documents {
+      max-width: 1300px;
+      min-width: 1300px;
+    }
+  }
+  .networkSetting {
+    height: 255px;
+    background-color: rgb(240, 234, 234);
+    padding: 20px 30px;
+    min-width: 1400px;
+    table {
+      margin: 25px 0;
+      width: 500px;
+    }
+    .button {
+      background-color: #613af0;
+      float: right;
+      bottom: 100%;
+      color: white;
+    }
+  }
+}
